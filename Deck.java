@@ -28,7 +28,7 @@ public class Deck {
 
     public void shuffle()
     {
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 10000; i++)
         {
             int num1 = functions.getRandomNumber(0, cardsLeft); 
             int num2 = functions.getRandomNumber(0, cardsLeft); 
